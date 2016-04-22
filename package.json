@@ -1,0 +1,14 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "Bot de Twitter para @AyudaEcuador_EC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Pardo",
+  "license": "GNU AFFERO GENERAL PUBLIC LICENSE v3",
+  "dependencies": {
+    "twitter": "^1.2.5"
+  }
+}
