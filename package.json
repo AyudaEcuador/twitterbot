@@ -9,6 +9,7 @@
   "author": "Antonio Pardo",
   "license": "GNU AFFERO GENERAL PUBLIC LICENSE v3",
   "dependencies": {
+    "mongoose": "^4.4.13",
     "twitter": "^1.2.5"
   }
 }
