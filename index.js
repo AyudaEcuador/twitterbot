@@ -2,7 +2,7 @@ var Twitter = require('twitter');
 var util = require('util');
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/ayudaecuador_ec');
+mongoose.connet(process.env.MONGO_URL)
 
 var client = new Twitter({
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
